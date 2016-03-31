@@ -9,7 +9,7 @@ Crontab es un servicio que permite cargar scripts u otras aplicaciones cada vez 
 ```
 ## 2.1 Escribe las siguientes líneas entra en modo "insertar" presionando `i`:
 ```
-* 23-00 * * * /usr/bin/shutdown.sh &>/tmp/myscript.log
+00 23:00 * * * /usr/bin/shutdown.sh &>/tmp/myscript.log
 ```
 ## 2.2 Escribir los cambios del archivo:
 Presiona `:wq` para guardar los cambios.
